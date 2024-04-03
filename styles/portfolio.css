@@ -30,6 +30,7 @@ nav {
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li {
     list-style: none;
@@ -44,4 +45,9 @@ nav a{
 }
 .banner{
     padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .main-pic{
+    width: 500px;
 }
