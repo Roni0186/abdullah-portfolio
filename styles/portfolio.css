@@ -15,6 +15,12 @@ body {
     font-weight: 700;
     padding: 15px 35px;
 }
+#blue{
+    background-color: rgb(5, 192, 192);
+}
+#blue1{
+    background-color: rgb(5, 192, 192) ;
+}
 .section-title{
     color: #181818;
     text-align: center;
@@ -79,12 +85,15 @@ nav a{
 .about{
     padding: 130px;
     border-radius: 10px;
-    background: #faf0e8;
+    background: #f5f5f4f5;
     margin: 130px 0;
 }
 main{
     max-width: 1140px;
     margin: auto;
+}
+main section {
+    margin-top: 130px;
 }
 .about-info-container{
     display: flex;
@@ -92,4 +101,26 @@ main{
 }
 .about-info{
     text-align: center;
+}
+#i-do{
+    padding: 30px 150px;
+    text-align: center
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.skills-description{
+    color: rgb(148, 146, 146);
+}
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
